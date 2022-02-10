@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar img {
+    width: 75px;
+    height: 60px;
+    margin-left: 65px;
+    margin-right: 25px;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+}
+
+.principal{
+    display: inline-flexbox;
+   align-items: center;
+   justify-content: center; 
+}
+
+.emphasis{
+    font-style:initial;
+    font-weight:bolder;
+    font-stretch: semi-expanded;
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+}
+
+.comp{
+    font-style: italic;
+    font-weight: normal;
+    font-size: medium;
+    color: #273746;
+}
+
+.principal .name{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.data {
+    display: flex;
+    margin-bottom: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.data li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.info .location{
+    margin-left: 7px;
+    padding: 0px;
+}
+
+.social{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.social li{
+    list-style: none;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topico{
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-style: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.picture{
+    border-radius: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+    padding: auto;
+}
+
+.pic{
+    border-radius: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 110px;
+    height: 110px;
+    padding: auto;
+}
+
+.special-picture{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    padding: auto;
+}
+
+.titulo-seccion{
+    text-align: center;
+    font-style: italic;
+}
+
+.texto-acompaniamiento{
+    text-align: center;
+}
+
+.description{
+    list-style: none;
+    padding: 0px;
+    display: block;
+}
+
+.academic{
+    padding: 0px;
+}
+
+.cuerpo{
+    display: block;
+}
+
+.lan{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill{
+    display: block;
+}
+
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+  }
